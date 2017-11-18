@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu Bold";
+  src: url("../fonts/Ubuntu/Ubuntu-Bold.ttf") format("truetype");
+}
+
+.styleguide-header {
+  height: 100%;
+  padding: 20px;
+  position: fixed;
+  width: 240px;
+}
+
+.styleguide-h1,
+.styleguide-h2 {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 40px;
+  margin: 0 0 20px;
+}
+
+.styleguide-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.styleguide-nav a {
+  color: #000;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.styleguide-nav a:hover {
+  color: #333;
+}
+
+.styleguide-main {
+  padding: 0 20px 0 280px;
+}
+
+.component {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}

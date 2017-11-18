@@ -1,0 +1,28 @@
+{
+  "name": "styleguider",
+  "version": "1.0.0",
+  "description": "A simple styleguide generator",
+  "scripts": {
+    "start": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itswil/styleguider"
+  },
+  "author": "timeoutdigital",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itswil/styleguider/issues"
+  },
+  "homepage": "https://github.com/itswil/styleguider",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "rimraf": "^2.6.2"
+  }
+}
